@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form method="GET" action="" name="form">
+    <label for="FirstName">First Name:</label>
+    <input type="text" name="FirstName" id="FirstName"/>
+    <br /><br />
+    Are you alive?
+    <label>!Yes</label>
+    <input type="radio" name="Alive?" id="!Yes" value="!Yes"/>
+    <label>No</label>
+    <input type="radio" name="Alive?" id="No" value="No"/>
+    <br /><br />
+    Check all of the following that apply: <br />
+    <input type="checkbox" name="webDesign" value="webDesign" id="webDesign"/>
+    <label>Web Design</label> <br />
+    <input type="checkbox" name="computerSciencePrinciples" value="computerSciencePrinciples" id="computerSciencePrinciples"/>
+    <label>Computer Science Principles</label> <br />
+    <input type="checkbox" name="cybersecurity" value="cybersecurity" id="cybersecurity"/>
+    <label>Cybersecurity</label> <br /><br />
+    Any other comments here: <br />
+    <textarea name="comments" rows="20" cols="50"></textarea> <br />
+    <select name="numbers" id="numbers">
+        <option value="default"></option>
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+        <option value="yes">All the things!</option>
+        <option value="no"></option>
+    </select> <br /> <br />
+    <input type="submit" value="Submit!" />
+</form>
+</body>
+</html>
